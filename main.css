@@ -1,53 +1,82 @@
-#fake {
-    color: rgb(102, 102, 255);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 900;
-
-}
-
 #desc {
     font-size: small;
 }
 #create {
-    color: black;
+    color: rgba(0, 0, 0, 0.532);
     background-color: white;
     padding: 5px;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    padding: 20px;
+}
+.line {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    width: 100%;
+}
+.pop {
+    position: relative;
+    margin: 0 auto;
 }
 .card {
     margin: 0 auto;
     float: none;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+.container1 {
+    max-width: 30rem;
+    margin: 0 auto;
+
 }
 .continue {
     background-color: rgb(250, 185, 64);
     border-color: rgba(0, 0, 0, 0.31);
     color: rgba(0, 0, 0, 0.641);
 }
+.continue:hover {
+    background-color: orange;
+    border-color: rgba(0, 0, 0, 0.403);
+    color: rgba(0, 0, 0, 0.488);
+}
 .create-button {
     background-color: rgb(232, 232, 232);
     border-color: rgba(0, 0, 0, 0.158);
-    color: rgba(0, 0, 0, 0.896);
+    color: rgba(0, 0, 0, 0.723);
+    width: 95%;
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+.create-button:hover{
+    background-color: rgb(212, 212, 212);
+    border-color: rgba(0, 0, 0, 0.261);
+    color: rgba(0, 0, 0, 0.696);
 }
 .container-fluid {
     border: 2px rgba(0, 0, 0, 0.197);
     border-style: hidden hidden solid hidden;
 }
-.flexbox {
+.flexbox2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    align-content: center;
     margin: 0 auto;
-    position: relative;
-
+    position: static;
+    font-family: small;
+    max-width: 55%;
 }
-.conditions {
-
+.copyright {
+    margin: auto auto 100px auto;
+    font-family: small;
 }
-.privacy {
-
+.flexbox1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.help-tab {
-
+.help {
+    margin: 30px 0 0 20px;
 }
