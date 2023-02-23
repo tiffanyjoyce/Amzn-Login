@@ -1,0 +1,53 @@
+#fake {
+    color: rgb(102, 102, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+
+}
+
+#desc {
+    font-size: small;
+}
+#create {
+    color: black;
+    background-color: white;
+    padding: 5px;
+}
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+.continue {
+    background-color: rgb(250, 185, 64);
+    border-color: rgba(0, 0, 0, 0.31);
+    color: rgba(0, 0, 0, 0.641);
+}
+.create-button {
+    background-color: rgb(232, 232, 232);
+    border-color: rgba(0, 0, 0, 0.158);
+    color: rgba(0, 0, 0, 0.896);
+}
+.container-fluid {
+    border: 2px rgba(0, 0, 0, 0.197);
+    border-style: hidden hidden solid hidden;
+}
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    position: relative;
+
+}
+.conditions {
+
+}
+.privacy {
+
+}
+.help-tab {
+
+}
